@@ -1666,3 +1666,79 @@ p {
     padding-bottom: 110px;
   }
 }
+
+/* ---------- Synchronisation ---------- */
+
+.hero__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.hero__top .hero__brand {
+  margin-bottom: 0;
+}
+
+.sync-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sync-pill__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.sync-pill.is-idle .sync-pill__dot {
+  background: var(--ok);
+}
+
+.sync-pill.is-syncing .sync-pill__dot {
+  background: var(--accent);
+  animation: pulse 0.9s ease-in-out infinite;
+}
+
+.sync-pill.is-offline .sync-pill__dot {
+  background: var(--warn);
+}
+
+.sync-pill.is-error {
+  color: var(--danger);
+  border-color: #f0c4c4;
+}
+
+.sync-pill.is-error .sync-pill__dot {
+  background: var(--danger);
+}
+
+.sync-pill.is-signedOut {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.sync-pill.is-signedOut .sync-pill__dot {
+  display: none;
+}
+
+.account-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--soft);
+}

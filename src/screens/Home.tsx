@@ -6,6 +6,7 @@ import { formatDate, fullAddress, inspectionProgress, titleFor } from '../lib/fo
 import { navigate } from '../lib/router';
 import { ActionMenu, BottomBar, Button, EmptyState, Icon, ProgressBar, confirmDialog, toast } from '../components/ui';
 import { Thumb } from '../components/Photos';
+import { SyncButton } from '../components/Account';
 
 export function Home() {
   const [items, setItems] = useState<Inspection[] | null>(null);
@@ -22,6 +23,10 @@ export function Home() {
 
   useEffect(() => {
     void refresh();
+    // Liste mise a jour quand la synchronisation apporte des changements d'un autre appareil.
+    const onRemote = () => void refresh();
+    window.addEventListener('app:remote-change', onRemote);
+    return () => window.removeEventListener('app:remote-change', onRemote);
   }, []);
 
   const onDelete = async (inspection: Inspection) => {
@@ -56,11 +61,14 @@ export function Home() {
   return (
     <div className="screen">
       <header className="hero">
-        <div className="hero__brand">
-          <span className="hero__logo">
-            <Icon name="home" size={20} />
-          </span>
-          État des lieux
+        <div className="hero__top">
+          <div className="hero__brand">
+            <span className="hero__logo">
+              <Icon name="home" size={20} />
+            </span>
+            État des lieux
+          </div>
+          <SyncButton />
         </div>
         <h1 className="hero__title">Vos états des lieux</h1>
         <p className="hero__sub">Saisie pièce par pièce, photos, signatures et PDF final. Tout est enregistré automatiquement sur cet appareil.</p>

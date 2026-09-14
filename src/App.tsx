@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { matchPath, navigate, useHashPath } from './lib/router';
+import { startSync } from './lib/sync';
 import { InspectionProvider } from './store';
 import { Button, DialogHost, EmptyState, ToastHost, TopBar } from './components/ui';
 import { Home } from './screens/Home';
@@ -60,6 +62,7 @@ function Router() {
 }
 
 export function App() {
+  useEffect(() => startSync(), []);
   return (
     <>
       <Router />

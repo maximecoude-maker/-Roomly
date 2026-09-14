@@ -53,6 +53,7 @@ export async function buildPhoto(file: Blob, inspectionId: string, source: Photo
     width: full.width,
     height: full.height,
     createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
     source,
     name,
   };

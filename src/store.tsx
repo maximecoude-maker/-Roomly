@@ -78,6 +78,23 @@ export function InspectionProvider({ id, children, fallback }: { id: string; chi
     [persist],
   );
 
+  // Recharge l'etat des lieux ouvert s'il a ete modifie depuis un autre appareil (hors saisie en cours).
+  useEffect(() => {
+    const onRemote = (event: Event) => {
+      const ids = (event as CustomEvent<string[]>).detail;
+      if (!ids.includes(id) || dirty.current) return;
+      getInspection(id)
+        .then((found) => {
+          if (!found || dirty.current) return;
+          latest.current = found;
+          setInspection(found);
+        })
+        .catch((error: unknown) => console.error('Rechargement impossible', error));
+    };
+    window.addEventListener('app:remote-change', onRemote);
+    return () => window.removeEventListener('app:remote-change', onRemote);
+  }, [id]);
+
   // Sauvegarde immediate si l'onglet passe en arriere-plan (verrouillage du telephone, changement d'app).
   useEffect(() => {
     const onHide = () => {

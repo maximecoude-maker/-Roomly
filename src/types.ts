@@ -135,6 +135,7 @@ export interface PhotoRecord {
   width: number;
   height: number;
   createdAt: string;
+  updatedAt?: string;
   source: 'pdf' | 'camera' | 'import';
   name: string;
 }

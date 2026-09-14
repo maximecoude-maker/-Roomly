@@ -22,6 +22,16 @@ npm run dev:https
 
 Accepter l'avertissement de certificat auto-signé sur le téléphone. En HTTP, l'app bascule sur « télécharger + e-mail prérempli ».
 
+## Synchronisation Supabase (optionnelle)
+
+Sans configuration, tout reste dans le navigateur de l'appareil. Avec Supabase, les états des lieux et photos sont sauvegardés en ligne et partagés entre appareils (connexion par lien e-mail, données privées par utilisateur).
+
+1. Exécuter `supabase/migrations/0001_init.sql` dans Supabase › SQL Editor (tables, RLS, bucket privé `photos`).
+2. Authentication › URL Configuration : Site URL = URL de production ; Redirect URLs = URL de production + `http://localhost:5190/`.
+3. Copier `.env.example` en `.env.local` et renseigner `VITE_SUPABASE_URL` et `VITE_SUPABASE_ANON_KEY` (clé publishable/anon, jamais la clé service_role). Sur Vercel : mêmes variables dans Settings › Environment Variables.
+
+Fonctionnement « local d'abord » : chaque écriture est enregistrée dans IndexedDB puis placée dans une file d'envoi, poussée dès que le réseau est disponible ; les modifications des autres appareils sont récupérées au lancement, au retour au premier plan et toutes les minutes (dernier enregistrement gagnant).
+
 ## Fonctionnalités
 
 - Création : **Entrée** ou **Sortie** ; départ depuis le modèle issu du PDF, un logement vierge, ou (sortie) un état d'entrée existant.
