@@ -299,6 +299,17 @@ export async function signInWithEmail(email: string): Promise<void> {
   if (error) throw new Error(error.message);
 }
 
+/** Connexion sans e-mail : evite la limite d'envoi du service mail Supabase. */
+export async function signInWithPassword(email: string, password: string): Promise<void> {
+  const { error } = await client().auth.signInWithPassword({ email, password });
+  if (error) throw new Error(error.message === 'Invalid login credentials' ? 'E-mail ou mot de passe incorrect' : error.message);
+}
+
+export async function setPassword(password: string): Promise<void> {
+  const { error } = await client().auth.updateUser({ password });
+  if (error) throw new Error(error.message);
+}
+
 export async function signOut(): Promise<void> {
   const { error } = await client().auth.signOut();
   if (error) throw new Error(error.message);
