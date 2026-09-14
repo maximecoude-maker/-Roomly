@@ -1,0 +1,1677 @@
+{
+  "sourcePdf": "Etat des lieux d'entrée - Template.pdf",
+  "property": {
+    "reference": "T5 100m² Lorient Gal Leclerc",
+    "address": "7 Boulevard du Général Leclerc",
+    "postalCode": "56100",
+    "city": "LORIENT",
+    "description": "T5 100 m²",
+    "cover": {
+      "file": "couverture.jpg",
+      "width": 378,
+      "height": 283
+    }
+  },
+  "parties": {
+    "landlord": "SARL C.FAMILY INVEST",
+    "manager": "Romain Coudé",
+    "executedBy": "Romain Coudé",
+    "tenant": {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "birthDate": "",
+      "birthPlace": ""
+    }
+  },
+  "dates": {
+    "inspectionDate": "2024-01-20",
+    "leaseStart": "2023-12-31",
+    "moveInDate": "2024-01-27"
+  },
+  "keys": [
+    {
+      "label": "Entrée commune",
+      "type": "Clé",
+      "description": "Noire",
+      "quantity": 4,
+      "photos": [
+        {
+          "file": "cles-entree-commune.jpg",
+          "width": 378,
+          "height": 284
+        }
+      ]
+    },
+    {
+      "label": "Porte d'entrée",
+      "type": "Clé",
+      "description": "Noire",
+      "quantity": 4,
+      "photos": [
+        {
+          "file": "cles-porte-entree.jpg",
+          "width": 378,
+          "height": 284
+        }
+      ]
+    },
+    {
+      "label": "Boîte aux lettres",
+      "type": "Clé",
+      "description": "",
+      "quantity": 1,
+      "photos": [
+        {
+          "file": "cles-boite-aux-lettres.jpg",
+          "width": 378,
+          "height": 284
+        }
+      ]
+    }
+  ],
+  "meters": [
+    {
+      "kind": "electricite",
+      "label": "Compteur d'électricité",
+      "reference": "14848046268402",
+      "provider": "EDF",
+      "reading": "",
+      "readingDate": "2024-01-20",
+      "location": "",
+      "photos": []
+    },
+    {
+      "kind": "eau",
+      "label": "Compteur d'eau",
+      "reference": "",
+      "provider": "Saur via copropriété",
+      "reading": "1211827",
+      "readingDate": "2024-01-20",
+      "location": "Cuisine",
+      "photos": [
+        {
+          "file": "compteur-eau.jpg",
+          "width": 378,
+          "height": 284
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Séjour",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Neuf"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Installation électrique",
+          "value": "Conforme"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        },
+        {
+          "label": "Boiseries",
+          "value": "Ok"
+        }
+      ],
+      "comment": "",
+      "photos": [],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Sol",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Mur",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Porte d'entrée",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Fenêtres",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Spécificités",
+          "items": [
+            {
+              "name": "Thermostat",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Prises",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Conformité",
+          "items": [
+            {
+              "name": "Prises électriques",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Interrupteurs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Éclairage - plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-conformite-eclairage-plafond-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "sejour-conformite-eclairage-plafond-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Chauffage",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Détecteur de fumée",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-conformite-detecteur-de-fumee-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Meubles & décorations",
+          "items": [
+            {
+              "name": "Table basse",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-meubles-decorations-table-basse-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Grand canapé",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-meubles-decorations-grand-canape-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Petit canapé",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-meubles-decorations-petit-canape-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Meuble TV",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Téléviseur",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "marque",
+                  "value": "Samsung"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "sejour-meubles-decorations-televiseur-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuisine",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Neuf"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Installation électrique",
+          "value": "Conforme"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        },
+        {
+          "label": "Boiseries",
+          "value": "Ok"
+        }
+      ],
+      "comment": "",
+      "photos": [],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Sol",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Murs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Fenêtre",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Spécificités",
+          "items": [
+            {
+              "name": "Éléments de cuisines encastrés",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-specificites-elements-de-cuisines-encastres-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-specificites-elements-de-cuisines-encastres-2.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-specificites-elements-de-cuisines-encastres-3.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-specificites-elements-de-cuisines-encastres-4.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-specificites-elements-de-cuisines-encastres-5.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Îlot de cuisine",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Plan de travail",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-specificites-plan-de-travail-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Crédence",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-specificites-credence-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Prises",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Évier",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-specificites-evier-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conformité",
+          "items": [
+            {
+              "name": "Prises électriques",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Interrupteurs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Éclairage - plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Appareils",
+          "items": [
+            {
+              "name": "Micro-ondes",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-micro-ondes-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-appareils-micro-ondes-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Four",
+              "condition": null,
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-four-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-appareils-four-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Réfrigérateur",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-refrigerateur-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-appareils-refrigerateur-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Hotte aspirante",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-hotte-aspirante-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Lave-vaisselle",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-lave-vaisselle-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Plaque de cuisson",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-appareils-plaque-de-cuisson-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Meubles & décorations",
+          "items": [
+            {
+              "name": "4 Chaises",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "matière",
+                  "value": "métal et textile"
+                },
+                {
+                  "label": "nombre",
+                  "value": "4"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-meubles-decorations-4-chaises-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Poubelle",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "matière",
+                  "value": "matière synthétique"
+                },
+                {
+                  "label": "nombre",
+                  "value": "1"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-meubles-decorations-poubelle-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Vaisselle",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "nombre d'assiettes",
+                  "value": "12"
+                },
+                {
+                  "label": "nombre d'assiettes creuses",
+                  "value": "8"
+                },
+                {
+                  "label": "nombre d'assiettes dessert",
+                  "value": "8"
+                },
+                {
+                  "label": "nombre de tasses",
+                  "value": "6"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-meubles-decorations-vaisselle-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-meubles-decorations-vaisselle-2.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-meubles-decorations-vaisselle-3.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-meubles-decorations-vaisselle-4.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Couverts",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "nombre de couteaux",
+                  "value": "12"
+                },
+                {
+                  "label": "nombre de fourchettes",
+                  "value": "12"
+                },
+                {
+                  "label": "nombre de cuillières",
+                  "value": "12"
+                },
+                {
+                  "label": "nombre de couteaux dessert",
+                  "value": "8"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-meubles-decorations-couverts-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Ustensiles de cuisine",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "nombre",
+                  "value": "9"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "cuisine-meubles-decorations-ustensiles-de-cuisine-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-meubles-decorations-ustensiles-de-cuisine-2.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "cuisine-meubles-decorations-ustensiles-de-cuisine-3.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chambre 2 (cour milieu)",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Neuf"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Installation électrique",
+          "value": "Conforme"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        },
+        {
+          "label": "Boiseries",
+          "value": "Ok"
+        }
+      ],
+      "comment": "",
+      "photos": [
+        {
+          "file": "chambre-2-cour-milieu-1.jpg",
+          "width": 350,
+          "height": 262
+        }
+      ],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Sol",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-base-sol-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Mur",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Porte",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [
+                {
+                  "label": "Serrure",
+                  "value": "serrure"
+                },
+                {
+                  "label": "Clef",
+                  "value": "présente"
+                }
+              ],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Fenêtre",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Conformité",
+          "items": [
+            {
+              "name": "Prises électriques",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Interrupteurs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Éclairage - plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-conformite-eclairage-plafond-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "chambre-2-cour-milieu-conformite-eclairage-plafond-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Meubles & décorations",
+          "items": [
+            {
+              "name": "Etagère",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "type",
+                  "value": "ouvert"
+                },
+                {
+                  "label": "finition",
+                  "value": "peinture"
+                },
+                {
+                  "label": "couleur",
+                  "value": "blanc"
+                },
+                {
+                  "label": "cintres",
+                  "value": "8"
+                }
+              ],
+              "parts": [
+                {
+                  "label": "Tringle",
+                  "value": "nombre : 1"
+                },
+                {
+                  "label": "Etagères",
+                  "value": "nombre : 8"
+                }
+              ],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-etagere-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "chambre-2-cour-milieu-etagere-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Lit",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "modèle",
+                  "value": "160 cm"
+                },
+                {
+                  "label": "type",
+                  "value": "standard"
+                },
+                {
+                  "label": "matelas",
+                  "value": "1"
+                },
+                {
+                  "label": "couverture/couette",
+                  "value": "1"
+                }
+              ],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-meubles-decorations-lit-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "chambre-2-cour-milieu-meubles-decorations-lit-2.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "chambre-2-cour-milieu-meubles-decorations-lit-3.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Chaises de bureau",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-meubles-decorations-chaises-de-bureau-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Table de chevet",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "chambre-2-cour-milieu-meubles-decorations-table-de-chevet-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salle d'eau 1 (rue)",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Neuf"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Installation électrique",
+          "value": "Conforme"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        },
+        {
+          "label": "Boiseries",
+          "value": "Ok"
+        }
+      ],
+      "comment": "",
+      "photos": [
+        {
+          "file": "salle-d-eau-1-rue-1.jpg",
+          "width": 262,
+          "height": 350
+        }
+      ],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Sol",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Murs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Porte",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [
+                {
+                  "label": "Serrure",
+                  "value": "bouton tournant"
+                },
+                {
+                  "label": "Seuil",
+                  "value": "bois"
+                }
+              ],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Spécificités",
+          "items": [
+            {
+              "name": "Meuble de salle de bain",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-specificites-meuble-de-salle-de-bain-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Douche",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-specificites-douche-1.jpg",
+                  "width": 262,
+                  "height": 350
+                }
+              ]
+            },
+            {
+              "name": "Lavabo",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-specificites-lavabo-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Lave-linge",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-specificites-lave-linge-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conformité",
+          "items": [
+            {
+              "name": "Grille de ventilation",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-conformite-grille-de-ventilation-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Prises électriques",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Interrupteurs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Éclairage - plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-1-rue-conformite-eclairage-plafond-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salle d'eau 2 (cour)",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Neuf"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Installation électrique",
+          "value": "Conforme"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        },
+        {
+          "label": "Boiseries",
+          "value": "Ok"
+        }
+      ],
+      "comment": "",
+      "photos": [],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Sol",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Plafond",
+              "condition": null,
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-2-cour-base-plafond-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Murs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Porte",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [
+                {
+                  "label": "structure",
+                  "value": "Porte à peindre"
+                }
+              ],
+              "parts": [
+                {
+                  "label": "Serrure",
+                  "value": "bouton tournant"
+                },
+                {
+                  "label": "Seuil",
+                  "value": "bois"
+                },
+                {
+                  "label": "Ferme-porte",
+                  "value": "oui"
+                }
+              ],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Spécificités",
+          "items": [
+            {
+              "name": "Meuble de salle de bain",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-2-cour-specificites-meuble-de-salle-de-bain-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Douche",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-2-cour-specificites-douche-1.jpg",
+                  "width": 262,
+                  "height": 350
+                }
+              ]
+            },
+            {
+              "name": "Lavabo",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-2-cour-specificites-lavabo-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conformité",
+          "items": [
+            {
+              "name": "Grille de ventilation",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "salle-d-eau-2-cour-conformite-grille-de-ventilation-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Prises électriques",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Interrupteurs",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Éclairage - plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toilette",
+      "generalState": [
+        {
+          "label": "Ordre",
+          "value": "Ok"
+        },
+        {
+          "label": "Propreté",
+          "value": "Ok"
+        },
+        {
+          "label": "Peinture",
+          "value": "Ok"
+        },
+        {
+          "label": "Ventilation",
+          "value": "Suffisante"
+        },
+        {
+          "label": "Humidité",
+          "value": "Aucune"
+        }
+      ],
+      "comment": "",
+      "photos": [],
+      "sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "name": "Plafond",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [
+                {
+                  "type": "Dégâts",
+                  "comment": "Marque au plafond"
+                }
+              ],
+              "photos": [
+                {
+                  "file": "toilette-base-plafond-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Mur",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Porte",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            },
+            {
+              "name": "Fenêtre",
+              "condition": "tres_bon",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": []
+            }
+          ]
+        },
+        {
+          "name": "Spécificités",
+          "items": [
+            {
+              "name": "Lavabo",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "toilette-specificites-lavabo-1.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            },
+            {
+              "name": "Toilette",
+              "condition": "neuf",
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "toilette-specificites-toilette-1.jpg",
+                  "width": 350,
+                  "height": 262
+                },
+                {
+                  "file": "toilette-specificites-toilette-2.jpg",
+                  "width": 350,
+                  "height": 262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Installations techniques",
+      "generalState": [],
+      "comment": "",
+      "photos": [],
+      "sections": [
+        {
+          "name": "Équipements",
+          "items": [
+            {
+              "name": "Coffret de distribution",
+              "condition": null,
+              "comment": "",
+              "characteristics": [],
+              "parts": [],
+              "issues": [],
+              "photos": [
+                {
+                  "file": "installations-techniques-coffret-de-distribution-1.jpg",
+                  "width": 262,
+                  "height": 350
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
