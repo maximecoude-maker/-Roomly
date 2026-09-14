@@ -1,5 +1,6 @@
 import type { Inspection, PhotoRecord } from '../types';
 
+// Nom technique conserve apres le renommage en Roomly : le changer effacerait les donnees locales existantes.
 const DB_NAME = 'etat-des-lieux';
 const DB_VERSION = 2;
 

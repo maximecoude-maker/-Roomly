@@ -66,7 +66,7 @@ export function Home() {
             <span className="hero__logo">
               <Icon name="home" size={20} />
             </span>
-            État des lieux
+            Roomly
           </div>
           <SyncButton />
         </div>

@@ -1,4 +1,4 @@
-# État des lieux — application mobile-first
+# Roomly — états des lieux mobile-first
 
 Réalisation d'états des lieux d'entrée et de sortie sur smartphone : saisie pièce par pièce, photos, constats, comparaison entrée/sortie, signatures et PDF final. Fonctionne entièrement en local (données dans le navigateur, aucun serveur).
 

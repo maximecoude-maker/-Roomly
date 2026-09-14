@@ -264,7 +264,7 @@ class PdfWriter {
       this.pdf.setLineWidth(0.2);
       this.pdf.line(MARGIN, 14.5, PAGE_W - MARGIN, 14.5);
       this.pdf.line(MARGIN, PAGE_H - 12.5, PAGE_W - MARGIN, PAGE_H - 12.5);
-      this.pdf.text(clean(this.inspection.parties.landlord), MARGIN, PAGE_H - 8);
+      this.pdf.text(clean([this.inspection.parties.landlord, 'Réalisé avec Roomly'].filter(Boolean).join(' · ')), MARGIN, PAGE_H - 8);
       this.pdf.text(`Page ${page} / ${total}`, PAGE_W - MARGIN, PAGE_H - 8, { align: 'right' });
     }
   }
